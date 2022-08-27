@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+matlab/externals/.DS_Store
+.DS_Store
+prebuild
