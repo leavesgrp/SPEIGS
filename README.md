@@ -75,7 +75,7 @@ The users can flexibly decide whether to use SPEIGS to factorize based on the re
 
 #### Use in MATLAB
 
-SPEIGS is callable from MATLAB by the MEX interface. Users can either build the mexfile using **CMakeLists.txt** from `matlab`  directory or download the pre-built mex files and run
+SPEIGS is callable from MATLAB by the MEX interface. Users can either build the mexfile using **CMakeLists.txt** from `matlab`  directory or download the pre-built mex files from https://github.com/leavesgrp/SPEIGS/releases/tag/v1.0.0 and run
 
 ```
 install_mex
