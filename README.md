@@ -22,8 +22,8 @@ SPEIGS is built via CMAKE system and is linked to MKL library for the implementa
 
 ```cmake
 # Option 1. Link with MKL
-set(ENV{MKL_LIB_PATH} YOUR_MKL_PATH
-set(ENV{MKL_OMP_PATH} YOUR_OMP_PATH
+set(ENV{MKL_LIB_PATH} YOUR_MKL_PATH)
+set(ENV{MKL_OMP_PATH} YOUR_OMP_PATH)
 target_link_libraries(speigs $ENV{MKL_LIB_PATH}/libmkl_core.a)
 target_link_libraries(speigs $ENV{MKL_LIB_PATH}/libmkl_intel_lp64.a)
 target_link_libraries(speigs $ENV{MKL_LIB_PATH}/libmkl_intel_thread.a)
