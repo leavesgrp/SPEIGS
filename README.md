@@ -84,7 +84,7 @@ install_mex
 in Matlab. On successful installation, SPEIGS can be uses as `eig` function by
 
 ```
-[V, e] = speigs(A, opts);
+[V, e] = speigs(tril(A), opts);
 ```
 
 and `test_speigs.m` , `help speigs`  would provide help on how to use the routine.
